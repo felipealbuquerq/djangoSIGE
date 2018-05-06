@@ -26,26 +26,26 @@ Projeto independente open-source desenvolvido em Python 3 no Windows, testado no
 3. Gere um `.env` local
 
     ```bash
-    python contrib/env_gen.py
+    python3 contrib/env_gen.py
     ```
 
 
 4. Sincronize a base de dados:
 
     ```bash
-    python manage.py migrate
+    python3 manage.py migrate
     ```
 
 5. Crie um usuário (Administrador do sistema):
 
     ```bash
-    python manage.py createsuperuser
+    python3 manage.py createsuperuser
     ```
 
 6. Teste a instalação carregando o servidor de desenvolvimento (http://localhost:8000 no navegador):
 
     ```bash
-    python manage.py runserver
+    python3 manage.py runserver
     ```
 
 ## Implementações
